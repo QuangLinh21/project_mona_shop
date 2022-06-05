@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav-menu">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="intro.html">GIỚI THIỆU</a></li>
+                    <li><a href="dog.html">CHÓ CẢNH</a></li>
+                    <li ><a href="cat.html">MÈO CẢNH</a></li>
+                    <li><a href="food.html">ĐỒ ĂN</a></li>
+                    <li  class="hightlight"><a href="pk">PHỤ KIỆN</a></li>
+                   
+                </ul>
+            </div>
+            <div class="menu-1">
+                <ul class="menu-11">
+                    <li ><a href="#"><i class="fa fa-search" ></i></a>
+                        <ul class="search">
+                            <li>
+                                    <input type="search" name="txtsearch" placeholder="Search...">
+                                    <input type="submit" name="btm" value="Search">
+                            </li>
+                        </ul>
+                    <li><a href="account.html"><i class="fa fa-user-circle-o" ></i></a></li> 
+                   
+                    <li><a href="carts.html"><i class="fa fa-shopping-cart" ></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- ---------------body--------------------------------- --> 
+    <div class="body-intro body-product">
+        <div class="first-select">
+            <div class="first-select1">
+                <a href="index.html">TRANG CHỦ</a> <span> || CHÓ CẢNH</span>
+            </div>
+            <div class="first-select1">
+                <select name="chose" id="select">
+                    <option value="Thứ tự mặc định">Thứ tự mặc định</option>
+                    <option value="Thứ tự theo mức độ phổ biến">Thứ tự theo mức độ phổ biến</option>
+                    <option value="Thứ tự theo điểm đánh giá sản phẩm">Thứ tự theo điểm đánh giá sản phẩm</option>
+                    <option value="Thứ tự theo đánh giá: từ thấp đến cao">Thứ tự theo đánh giá: từ thấp đến cao</option>
+                    <option value="Thứ tự theo đánh giá: từ cao đến thấp">Thứ tự theo đánh giá: từ cao đến thấp</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="chose">
+            <div class="category">
+                <div class="first-category">
+                    <p class="title-2">DANH MỤC SẢN PHẨM</p>
+                    <div class="type">
+                        <div class="dm"><a href="dog.html" >Chó cảnh</a></div>
+                        
+                        <div class="dm"><a href="dog.html" >Mèo cảnh</a></div>
+                        
+                    </div>
+                </div>
+                <div class="first-category">
+                    <p class="title-2">LỌC SẢN PHẨM THEO GIÁ</p>
+                    <form action="" method="get">
+                        <div>
+                            <input type="range" name="range">
+                        </div>
+                        <div>
+                            <input type="submit" name="sbm" value="LỌC"> <span>Giá:</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="first-category">
+                    <p class="title-2">SẢN PHẨM</p>
+                    <div class="type">
+                      <div class="type-of">
+                          <div class="type-img">
+                            <a href=""><img src="images/pk/pk-7.jpg" alt=""></a>
+                          </div>
+                          <div class="type-des">
+                              <a href="">Chó alaska</a>
+                              <p>200$</p>
+                          </div>
+                      </div>
+                      <div class="type-of">
+                            <div class="type-img">
+                                <a href=""><img src="images/food/f-5.jpg" alt=""></a>
+                            </div>
+                         <div class="type-des">
+                             <a href="">Pate cá hồi</a>
+                             <p>200$</p>
+                         </div>
+                        </div>
+                        <div class="type-of">
+                            <div class="type-img">
+                              <a href=""><img src="images/pk/pk-3.jpg" alt=""></a>
+                            </div>
+                            <div class="type-des">
+                                <a href="">Thức ăn cho chó</a>
+                                <p>200$</p>
+                            </div>
+                        </div>
+                        <div class="type-of">
+                            <div class="type-img">
+                              <a href=""><img src="images/cat/cat-4.jpg" alt=""></a>
+                            </div>
+                            <div class="type-des">
+                                <a href="">Mèo Anh - tai cụp</a>
+                                <p>200$</p>
+                            </div>
+                        </div>
+                        <div class="type-of">
+                            <div class="type-img">
+                              <a href=""><img src="images/food/f-11.jpg" alt=""></a>
+                            </div>
+                            <div class="type-des">
+                                <a href="">Bánh quy vị cá thu</a>
+                                <p>200$</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="product">
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-1.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN </span> <br> Túi Nylon Trung</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+                </div>
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-2.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN </span> <br>Vòng cổ da</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+                </div>
+                <div class="item">
+                        <div class="product-f"><a href="#"><img src="images/pk/pk-3.jpg" ></a></div>
+                        <h4><a href="#"><span>PHỤ KIỆN</span> <br> Yếm Ferplast </a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$100.000</p>
+                   
+                </div>
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-4.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> vòng cổ da - đen</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div>  
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-5.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> Dây dắt </a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div>  
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-6.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> Lồng vận chuyển  </a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div>
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-7.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> Dây dắt tự động</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div> 
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-8.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> Túi sách </a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div> 
+                <div class="item">
+                    <div class="product-f"><a href="#"><img src="images/pk/pk-3.jpg" ></a></div>
+                    <h4><a href="#"><span>PHỤ KIỆN</span> <br> Phụ kiện </a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o" ></i>
+                    </div>
+                    <p>$100.000</p>
+               
+                </div>   
+            </div>
+        </div>
+    </div>
+    
+
+ <!-- ---------------footer--------------------------------- --> 
+ <div class="footer">
+    <div class="footer-l">
+        <h2>ĐIỀU HƯỚNG</h2>
+        <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Về chúng tôi</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Điểm tin hữu ích</a></li>
+            <li><a href="">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div class="footer-b">
+        <div class="logo-1">
+            <img src="images/logo.png" alt="">
+        </div>
+        <input type="email" name="" id="" placeholder="Email">
+        <input type="submit" value="Gửi">
+    </div>
+    <div class="footer-r">
+        <h2>Thông tin lên hệ</h2>
+        <ul>
+            <li><a href=""><i class="fa icon fa-map-marker"></i> Đại học Phương Đông<br> số 4 Ngõ Chùa Hưng Ký – Minh Khai <br> Hai Bà Trưng – Hà Nội</a></li>
+            <li><a href=""><i class="fa icon fa-volume-control-phone" ></i>0243 6241394 hoặc 093.6738889</a></li>
+            <li><a href=""><i class="fa icon fa-envelope-o" ></i>ict.dhphuongdong@gmail.com</a></li>
+            <li><a href=""><i class="fa icon fa-facebook-square" ></i>facebook.com/cntt.phuongdong</a></li>
+            <li><a href=""><i class="fa icon fa-globe" ></i>cntt.phuongdong.edu.vn/
+            </a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
